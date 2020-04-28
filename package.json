@@ -1,0 +1,37 @@
+{
+  "name": "@scope/services-example",
+  "version": "0.1.0",
+  "private": true,
+  "description": "cn.scope.example.api",
+  "author": "Mark Wang <zhi@uqugu.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "module": "dist/services-example.esm.js",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "restricted"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wisetc/microservices-boilerplate.git"
+  },
+  "scripts": {
+    "test": "tsdx test",
+    "build": "tsdx build",
+    "prepare": "tsdx build"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "url-join": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.13.4",
+    "@types/url-join": "^4.0.0",
+    "tsdx": "^0.13.2"
+  }
+}
